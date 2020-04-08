@@ -70,7 +70,7 @@ include('includes/header.php');
         <div class="row mb-5 justify-content-center text-center">
           <div class="col-lg-4 mb-5">
             <h2 class="section-title-underline mb-5">
-              <span>Why Academics Works</span>
+              <span>Why Academia Works</span>
             </h2>
           </div>
         </div>
@@ -83,7 +83,7 @@ include('includes/header.php');
               </div>
               <div class="feature-1-content">
                 <h2>Personalize Learning</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
+                <p>Individualized instruction, personal learning environment and direct instructions for students</p>
                 <p><a href="#" class="btn btn-primary px-4 rounded-0">Learn More</a></p>
               </div>
             </div>
@@ -95,7 +95,7 @@ include('includes/header.php');
               </div>
               <div class="feature-1-content">
                 <h2>Trusted Courses</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
+                <p>Prepared by qualified teachers and verified by teaching experts as per syllabus</p>
                 <p><a href="#" class="btn btn-primary px-4 rounded-0">Learn More</a></p>
               </div>
             </div> 
@@ -107,7 +107,7 @@ include('includes/header.php');
               </div>
               <div class="feature-1-content">
                 <h2>Tools for Students</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
+                <p>Online class registeration , <br >Course selection , e-payment and much more..</p>
                 <p><a href="#" class="btn btn-primary px-4 rounded-0">Learn More</a></p>
               </div>
             </div> 
@@ -126,140 +126,54 @@ include('includes/header.php');
             <h2 class="section-title-underline mb-3">
               <span>Popular Courses</span>
             </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, id?</p>
+            <p>Learn something completely new or improve your existing skills</p>
           </div>
         </div>
 
         <div class="row">
           <div class="col-12">
               <div class="owl-slide-3 owl-carousel">
-                  <div class="course-1-item">
-                    <figure class="thumnail">
-                      <a href="course-single.php"><img src="images/course_1.jpg" alt="Image" class="img-fluid"></a>
-                      <div class="price">$99.00</div>
-                      <div class="category"><h3>Mobile Application</h3></div>  
-                    </figure>
-                    <div class="course-1-content pb-4">
-                      <h2>How To Create Mobile Apps Using Ionic</h2>
-                      <div class="rating text-center mb-3">
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                      </div>
-                      <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusantium ipsam.</p>
-                      <p><a href="course-single.php" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
-                    </div>
-                  </div>
-      
-                  <div class="course-1-item">
-                    <figure class="thumnail">
-                      <a href="course-single.php"><img src="images/course_2.jpg" alt="Image" class="img-fluid"></a>
-                      <div class="price">$99.00</div>
-                      <div class="category"><h3>Web Design</h3></div>  
-                    </figure>
-                    <div class="course-1-content pb-4">
-                      <h2>How To Create Mobile Apps Using Ionic</h2>
-                      <div class="rating text-center mb-3">
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                      </div>
-                      <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusantium ipsam.</p>
-                      <p><a href="course-single.php" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
-                    </div>
-                  </div>
-      
-                  <div class="course-1-item">
-                    <figure class="thumnail">
-                      <a href="course-single.php"><img src="images/course_3.jpg" alt="Image" class="img-fluid"></a>
-                      <div class="price">$99.00</div>
-                      <div class="category"><h3>Arithmetic</h3></div>  
-                    </figure>
-                    <div class="course-1-content pb-4">
-                      <h2>How To Create Mobile Apps Using Ionic</h2>
-                      <div class="rating text-center mb-3">
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                      </div>
-                      <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusantium ipsam.</p>
-                      <p><a href="courses-single.php" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
-                    </div>
-                  </div>
+              <?php  
+              include('processes/connection.php');
 
-                  <div class="course-1-item">
-                    <figure class="thumnail">
-                        <a href="course-single.php"><img src="images/course_4.jpg" alt="Image" class="img-fluid"></a>
-                      <div class="price">$99.00</div>
-                      <div class="category"><h3>Mobile Application</h3></div>  
-                    </figure>
-                    <div class="course-1-content pb-4">
-                      <h2>How To Create Mobile Apps Using Ionic</h2>
-                      <div class="rating text-center mb-3">
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                      </div>
-                      <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusantium ipsam.</p>
-                      <p><a href="course-single.php" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
+                $query = "SELECT * FROM courses where status = 'live'group by teacher_name limit 5";  
+                $result = mysqli_query($con, $query);  
+                $query2 = "SELECT fname , lname from teacher_user order by email" ;
+                $result2 = mysqli_query($con, $query2);
+                while($row = mysqli_fetch_array($result) and $row2 =mysqli_fetch_array($result2) )  
+                {
+
+                  ?>
+                    <div class="course-1-item">
+                        <figure class="thumnail">
+                        <?php echo ' <a href="course-single.php"><img src="data:image/jpeg;base64,'.base64_encode($row['poster'] ).'" alt="Image" class="img-fluid"> </a> '; ?>
+                        <div class="price">Rs.<?php echo $row['price'] ?>.00</div>
+
+                        <div class="category"><h3> <?php echo $row['title'] ; echo " -By " ; echo $row2['fname'] ; echo " " ;echo $row2['lname']  ?> </h3></div> 
+
+                        </figure>   
+                        <div class="course-1-content pb-4">
+                        <h2 class="mb-3" > <?php echo $row['tagline'] ?>  </h2>
+                        <div class="rating text-center mb-3"> 
+                            <span class="icon-star2 text-warning"></span>
+                            <span class="icon-star2 text-warning"></span>
+                            <span class="icon-star2 text-warning"></span>
+                            <span class="icon-star2 text-warning"></span>
+                            <span class="icon-star2 text-warning"></span>
+                        </div>
+                        <p class="desc"> <?php echo $row['description'] ?>  </p>
+                        <p><a href="course-details.php?id= <?php echo $row['id'] ?>" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
+                        </div>
                     </div>
-                  </div>
-      
-                  <div class="course-1-item">
-                    <figure class="thumnail">
-                        <a href="course-single.php"><img src="images/course_5.jpg" alt="Image" class="img-fluid"></a>
-                      <div class="price">$99.00</div>
-                      <div class="category"><h3>Web Design</h3></div>  
-                    </figure>
-                    <div class="course-1-content pb-4">
-                      <h2>How To Create Mobile Apps Using Ionic</h2>
-                      <div class="rating text-center mb-3">
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                      </div>
-                      <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusantium ipsam.</p>
-                      <p><a href="course-single.php" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
-                    </div>
-                  </div>
-      
-                  <div class="course-1-item">
-                    <figure class="thumnail">
-                        <a href="course-single.php"><img src="images/course_6.jpg" alt="Image" class="img-fluid"></a>
-                      <div class="price">$99.00</div>
-                      <div class="category"><h3>Mobile Application</h3></div>  
-                    </figure>
-                    <div class="course-1-content pb-4">
-                      <h2>How To Create Mobile Apps Using Ionic</h2>
-                      <div class="rating text-center mb-3">
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                      </div>
-                      <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusantium ipsam.</p>
-                      <p><a href="course-single.php" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
-                    </div>
-                  </div>
-      
+
+               <?php    
+                }
+                ?>
+    
               </div>
       
           </div>
         </div>
-
-        
-        
       </div>
     </div>
 
@@ -275,9 +189,8 @@ include('includes/header.php');
             </h2>
           </div>
           <div class="col-lg-8">
-            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem nesciunt quaerat ad reiciendis perferendis voluptate fugiat sunt fuga error totam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus assumenda omnis tempora ullam alias amet eveniet voluptas, incidunt quasi aut officiis porro ad, expedita saepe necessitatibus rem debitis architecto dolore? Nam omnis sapiente placeat blanditiis voluptas dignissimos, itaque fugit a laudantium adipisci dolorem enim ipsum cum molestias? Quod quae molestias modi fugiat quisquam. Eligendi recusandae officiis debitis quas beatae aliquam?</p>
-            <p><a href="#">Read more</a></p>
+            <p class="lead">We take First Year Engineering Classes. We specialise in Mechanics, Engineering Drawing, Strcutured Programming Approach (SPA).</p>
+            <p>Along with engineering education we also conduct professional prgramming courses for languages like JAVA, ASP.Net, Python, etc.</p>
           </div>
         </div>
       </div>
@@ -387,19 +300,17 @@ include('includes/header.php');
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
             <span class="icon flaticon-mortarboard"></span>
             <h3>Our Philosphy</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea? Dolore, amet reprehenderit.</p>
+            <p>We focus on getting the basics right. Together with us you will gain in depth knowledge of the subjects that will strengthen your foundation and help you perform better in your career.</p>
           </div>
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
             <span class="icon flaticon-school-material"></span>
             <h3>Academics Principle</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
-              Dolore, amet reprehenderit.</p>
+            <p>Dedication , practice and reviewing basic concepts using pragmatic examples to ensure good understanding of subject knowledge</p>
           </div>
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
             <span class="icon flaticon-library"></span>
             <h3>Key of Success</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
-              Dolore, amet reprehenderit.</p>
+            <p>We conduct regular tests , doubt solving sessions and review student performance to ensure their success</p>
           </div>
         </div>
       </div>
