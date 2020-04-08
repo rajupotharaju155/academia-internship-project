@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 15, 2020 at 06:21 AM
+-- Generation Time: Apr 08, 2020 at 09:39 AM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.9
 
@@ -83,6 +83,29 @@ INSERT INTO `joined_courses` (`id`, `course_id`, `student_id`, `teacher_id`, `jo
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `sign`
+--
+
+CREATE TABLE `sign` (
+  `id` int(11) NOT NULL,
+  `username` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `cpassword` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `sign`
+--
+
+INSERT INTO `sign` (`id`, `username`, `email`, `password`, `cpassword`) VALUES
+(2, 'abc', 'abc@gmail.com', '$2y$10$nXhAc7zMW9Pbigq6WhLSAOxpqbxlHmonV5w4i9ClLaA4oXthT8Zxy', '$2y$10$nXhAc7zMW9Pbigq6WhLSAOxpqbxlHmonV5w4i9ClLaA4oXthT8Zxy'),
+(3, 'shrusti', 'shrustisavant20@gmail.com', '$2y$10$feWBsUQc44yK4tFNKM.nReOYUeUeHDtwh7Poq3V.gtTL8gP.FD7z6', '$2y$10$PI7gyItAPqrqPMht6PP.QeKaHfSVobSPg8L5pnqpR9vI1IS8jEM56'),
+(7, 'cami', 'cami@gmail.com', '$2y$10$EXaXBISgRI6i5CS6IHu9sO/mvja8ghYQJOxOGkECgfIRL/QQ/aje.', '$2y$10$HClBhpg9HIdpqwsKFpDmwOsywDjE8yLXXHX0/vbtrk4j5ZeBH8/na');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `student_user`
 --
 
@@ -153,6 +176,13 @@ ALTER TABLE `joined_courses`
   ADD KEY `student_id` (`teacher_id`);
 
 --
+-- Indexes for table `sign`
+--
+ALTER TABLE `sign`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `username` (`username`);
+
+--
 -- Indexes for table `student_user`
 --
 ALTER TABLE `student_user`
@@ -179,6 +209,12 @@ ALTER TABLE `courses`
 --
 ALTER TABLE `joined_courses`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT for table `sign`
+--
+ALTER TABLE `sign`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `student_user`
