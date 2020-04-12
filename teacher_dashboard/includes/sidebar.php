@@ -1,3 +1,22 @@
+
+
+//<?php
+  //  include('../processes/connection.php');
+//$result = mysqli_query($con, "select title from courses where email = '".$_SESSION['instructor']."' ");
+  //  while($row = mysqli_fetch_array($result)){
+    //  $title = $row['title'];
+        
+        
+        
+        
+      
+
+     
+//    }
+  //  ?>
+
+
+
 <head>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
@@ -31,26 +50,63 @@
               </ul>
               <!-- /nav-second-level-->
             </li>
-
-            <li>
-              <a href="customer-list.php" class="chart-nav"><i class="fa fa-users nav_icon"></i>Student List</a>
-            </li>
-
-              <li>
-              <a href="#"><i class="fa fa-check-square-o nav_icon"></i>Student Joining<span class="fa arrow"></span></a>
+              
+              
+              
+<!--
+               <li>
+                   <a href="#">
+              <i class="fa fa-users nav_icon"></i>Student List</a><span class="fa arrow"></span> </a>
               <ul class="nav nav-second-level collapse">
-                 <li><a href="bwdates-customers.php"> B/w dates</a></li>
+                 
+                //<li>  
+                                        
+                    
+<a href="listcourses.php"> <i class="fa fa-arrow-circle-right nav_icon"></i><?php echo $title ?> </a>
+               
+                  </li>
+             
+                
+                
               </ul>
-              <!-- //nav-second-level -->
-            </li>
+-->
+              <!-- /nav-second-level-->
+            
+              
+              
+              
+              
+              
+              
+              
+              
+              
+               <li>
+              <a href="showcourses.php" class="chart-nav"><i class="fa fa-users nav_icon"></i>Your Courses</a>
+                             
 
-            <li>
-              <a href="invoices.php" class="chart-nav"><i class="fa fa-file-text-o nav_icon"></i>Invoices</a>
             </li>
+              
+              
+              
+              
+              
+              
 
+<!--
             <li>
-              <a href="search-booking.php" class="chart-nav"><i class="fa fa-search nav_icon"></i>Search Booking</a>
+              <a href="student.php" class="chart-nav"><i class="fa fa-users nav_icon"></i>Student List</a>
+                             
+
             </li>
+              
+
+             
+-->
+
+          
+
+        
 
           </ul>
           <!-- //sidebar-collapse -->
